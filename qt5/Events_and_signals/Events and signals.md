@@ -29,7 +29,6 @@ class Click : public QWidget {
     Click(QWidget *parent = nullptr);
 };
 ```
-This is the header file.
 
 click.cpp
 ```
@@ -406,7 +405,7 @@ void Timer::timerEvent(QTimerEvent *e) {
   label->setText(stime);
 }
 ```
-To work with timer events, we must reimplement the timerEvent method.
+Чтобы работать с событиями таймера, мы должны переопределить метод timerEvent.
 main.cpp
 ```
 #include <QApplication>
